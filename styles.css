@@ -294,6 +294,58 @@ header{
     letter-spacing: 1px;
 }
 
+
+/* Seccion de video de charla*/
+iframe{
+    display: block;
+
+}
+
+.Hero-content-charla{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 40px; /* ⬅ menos padding */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px; /* ⬅ AQUÍ está la clave */
+}
+
+
+.Hero-text h3{
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    margin-bottom: 0.5rem;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.1;
+}
+
+.Hero-text p{
+    margin-top: 20px;
+    max-width: 500px;
+    line-height: 1.6;
+}
+
+
+.Hero-text{
+    flex: 1;
+}
+.Hero-video{
+    flex: 1;
+    max-width: 500px;
+    padding-left: 20px; /* aire extra */
+}
+
+
+.Hero-video iframe{
+    width: 30rem;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.5);
+}
+
+
 /* Responsive para el Footer */
 @media (max-width: 768px) {
     .footer-content {
@@ -352,4 +404,33 @@ header{
     }
 
 }
+
+/* responsive for the Think Big */
+@media (max-width: 768px){
+
+    .Hero-content-charla{
+        flex-direction: column;
+        gap: 40px;
+        padding: 30px 20px;
+    }
+
+    .Hero-text{
+        text-align: center;
+    }
+
+    .Hero-text p{
+        max-width: 100%;
+    }
+
+    .Hero-video{
+        padding-left: 0;
+        max-width: 100%;
+    }
+
+    .Hero-video iframe{
+        width: 100%;
+        height: 220px;
+    }
+}
+
 
