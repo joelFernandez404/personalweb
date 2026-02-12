@@ -249,21 +249,20 @@ header{
 }
 
 .Hero-images img {
-    width: 380px;
-    height: 380px;
-    border-radius: 50%;
+    width: 700px;
+    height: 700px;
+    border-radius: 100%;
     object-fit: cover;
-    outline: 2px solid #e63946;
-    box-shadow: 0 0 20px rgba(237, 76, 76, 0.5);
     transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    
 }
 
 .Hero-images img:hover {
-    transform: scale(1.02) rotate(360deg);
+    transform: scale(1.10);
     outline-offset: 10px;
 
-}
 
+}
 
 /* BOTÓN */
 .btn{
@@ -500,6 +499,7 @@ iframe{
         height: 220px;
     }
 }
+
 
 
 
