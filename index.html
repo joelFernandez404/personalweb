@@ -11,7 +11,52 @@
     <script src="https://kit.fontawesome.com/5c898ff011.js" crossorigin="anonymous"></script>
     <title>Joel Fernandez</title>
 </head>
+<!--Agregar JS-->
+<script>
+function toggleChat() {
+    const chat = document.getElementById("chatBox");
+    chat.style.display = chat.style.display === "block" ? "none" : "block";
+}
+
+function sendMessage(message) {
+    const phoneNumber = "593981045802";
+    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    window.open(url, "_blank");
+}
 <body>
+    <!--Button WhatsApp-->
+    <div class="w-btn" onclick="toggleChat()">
+        <i class="fa-brands fa-whatsapp"></i>
+
+    </div>
+    <!--Ventana Emergente-->
+    <div class="chat-box" id="chatBox">
+        <div class="chat-header">
+            <div>
+                <strong>Joel Fernandez</strong><br>
+                <small>Contactate Conmigo</small>
+            </div>
+            <span onclick="toggleChat()">✕</span>
+        </div>
+
+        <div class="chat-body">
+
+            <p>¡Hola! 👋 ¿En qué puedo ayudarte?</p>
+            <br>
+            <button onclick="sendMessage('Hola Joel, me interesa trabajar contigo en un proyecto.')">
+                🚀 Trabajemos Juntos
+            </button>
+
+            <button onclick="sendMessage('Hola Joel, tengo una idea y quiero desarrollarla contigo.')">
+                💡 Tengo una idea
+            </button>
+            
+            <button onclick="sendMessage('Hola Joel, quiero conocer más sobre tus proyectos.')">
+                📁 Deseo saber más sobre tus proyectos
+            </button>
+        </div>
+    </div>
+
     <!--Barra de navegacion principal-->
     <header>
         <nav id="navbar">
@@ -97,6 +142,7 @@
 </body>
 
 </html>
+
 
 
 
