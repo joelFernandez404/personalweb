@@ -21,6 +21,74 @@ body{
     overflow-x: hidden;
 }
 
+/*Button WhatsApp*/
+/* BOTÓN FLOTANTE */
+.w-btn {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: #25D366;
+    color: white;
+    font-size: 35px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    z-index: 1000;
+}
+
+.w-btn:hover {
+    width: 65px;
+    height: 65px;
+}
+
+
+/* VENTANA */
+.chat-box {
+    position: fixed;
+    bottom: 100px;
+    right: 25px;
+    width: 320px;
+    background: #111;
+    color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    display: none;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+    z-index: 1000;
+}
+
+/* HEADER */
+.chat-header {
+    background: #25D366;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* BODY */
+.chat-body {
+    padding: 20px;
+}
+
+.chat-body button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 12px;
+    background: #1c1c1c;
+    color: white;
+    border: 1px solid #333;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
 a{
     text-decoration: none;
     color: inherit;
@@ -432,5 +500,6 @@ iframe{
         height: 220px;
     }
 }
+
 
 
