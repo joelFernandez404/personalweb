@@ -27,12 +27,14 @@ elevenlabs-convai {
     width: 100%;
 }
 
+
+
 /*Button WhatsApp*/
 /* BOTÓN FLOTANTE */
 .w-btn {
     position: fixed;
-    bottom: 25px;
-    left: 25px;
+    bottom: 30px;
+    left: 30px;
     background-color: #25D366;
     color: white;
     font-size: 35px;
@@ -46,6 +48,21 @@ elevenlabs-convai {
     box-shadow: 0 8px 20px rgba(0,0,0,0.3);
     z-index: 1000;
 }
+
+.avatar-button {
+    position: sticky;
+    bottom: 25px;
+    left: 25px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+    z-index: 1000;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
 
 .w-btn:hover {
     width: 65px;
@@ -419,6 +436,16 @@ iframe{
 }
 
 
+@media (max-width: 768px){
+
+    .w-btn{
+        top: 80px;
+        bottom: auto;
+        left: 280px;
+        right: auto;
+    }
+   
+}
 /* Responsive para el Footer */
 @media (max-width: 768px) {
     .footer-content {
@@ -432,12 +459,6 @@ iframe{
     
     .social-icons {
         justify-content: center;
-    }
-    .w-btn{
-        top: 80px;
-        bottom: auto;
-        left: 280px;
-        right: auto;
     }
 }
 /* =========================================
@@ -511,6 +532,7 @@ iframe{
         height: 220px;
     }
 }
+
 
 
 
