@@ -21,12 +21,18 @@ body{
     overflow-x: hidden;
 }
 
+elevenlabs-convai {
+    position: fixed;
+    right: 80px;
+    width: 100%;
+}
+
 /*Button WhatsApp*/
 /* BOTÓN FLOTANTE */
 .w-btn {
     position: fixed;
     bottom: 25px;
-    right: 25px;
+    left: 25px;
     background-color: #25D366;
     color: white;
     font-size: 35px;
@@ -51,7 +57,7 @@ body{
 .chat-box {
     position: fixed;
     bottom: 100px;
-    right: 25px;
+    left: 25px;
     width: 320px;
     background: #111;
     color: white;
@@ -427,6 +433,12 @@ iframe{
     .social-icons {
         justify-content: center;
     }
+    .w-btn{
+        top: 80px;
+        bottom: auto;
+        left: 280px;
+        right: auto;
+    }
 }
 /* =========================================
    MEDIA QUERIES (OPTIMIZADO)
@@ -499,6 +511,7 @@ iframe{
         height: 220px;
     }
 }
+
 
 
 
