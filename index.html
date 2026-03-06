@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="--Author" content="Joel Fernandez">
-    <!--view when share a link or url-->
-    <meta name="OG:title" content="Joel Fernandez">
-    <meta name="OG:description" content="Web of Joel Fernandez">
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/5c898ff011.js" crossorigin="anonymous"></script>
-    <title>Joel Fernandez</title>
-</head>
-<!--Agregar JS-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="--Author" content="Joel Fernandez">
+
+<meta name="OG:title" content="Joel Fernandez">
+<meta name="OG:description" content="Web of Joel Fernandez">
+
+<link rel="stylesheet" href="styles.css">
+
+<script src="https://kit.fontawesome.com/5c898ff011.js" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+
+<title>Joel Fernandez</title>
+
+<script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async></script>
+
 <script>
 function toggleChat() {
     const chat = document.getElementById("chatBox");
@@ -24,133 +30,270 @@ function sendMessage(message) {
     window.open(url, "_blank");
 }
 </script>
+
+</head>
+
 <body>
-    <!--Button WhatsApp-->
-    <div class="w-btn" onclick="toggleChat()">
-        <i class="fa-brands fa-whatsapp"></i>
 
-    </div>
-    <!--Ventana Emergente-->
-    <div class="chat-box" id="chatBox">
-        <div class="chat-header">
-            <div>
-                <strong>Joel Fernandez</strong><br>
-                <small>Contactate Conmigo</small>
-            </div>
-            <span onclick="toggleChat()">✕</span>
-        </div>
+<!-- WhatsApp Button -->
+<div class="w-btn" onclick="toggleChat()">
+<i class="fa-brands fa-whatsapp"></i>
+</div>
 
-        <div class="chat-body">
+<!-- Chat Box -->
+<div class="chat-box" id="chatBox">
+<div class="chat-header">
+<div>
+<strong>Joel Fernandez</strong><br>
+<small>Contactate Conmigo</small>
+</div>
+<span onclick="toggleChat()">✕</span>
+</div>
 
-            <p>¡Hola! 👋 ¿En qué puedo ayudarte?</p>
-            <br>
-            <button onclick="sendMessage('Hola Joel, me interesa trabajar contigo en un proyecto.')">
-                🚀 Trabajemos Juntos
-            </button>
+<div class="chat-body">
 
-            <button onclick="sendMessage('Hola Joel, tengo una idea y quiero desarrollarla contigo.')">
-                💡 Tengo una idea
-            </button>
-            
-            <button onclick="sendMessage('Hola Joel, quiero conocer más sobre tus proyectos.')">
-                📁 Deseo saber más sobre tus proyectos
-            </button>
-        </div>
-    </div>
+<p>¡Hola! 👋 ¿En qué puedo ayudarte?</p>
 
-    <!--Barra de navegacion principal-->
-    <header>
-        <nav id="navbar">
-            <div class="logo">Joel<span>Fernandez</span></div>
-        </nav>
-    </header>
+<button onclick="sendMessage('Hola Joel, me interesa trabajar contigo en un proyecto.')">
+🚀 Trabajemos Juntos
+</button>
 
-    <!--Craer el contenido principal-->
-    <main>
-        <!--Craer el contenido de Inicio-->
-        <section id="#Inicio" class="Hero">
-            <div class="Hero-content">
-                <div class="Hero-text">
-                    <h1>Joel Fernandez</h1>
-                    <h2>De niño me dijeron “haz lo que sea”; hoy lo hago, pero para cambiar el mundo.</h2>
-                
-                    <p>Cuando era niño, me enamoré perdidamente de cómo la tecnología puede transformar vidas. Con el tiempo, entendí que no es solo código y pantallas bonitas, sino una herramienta para cambiar realidades. Creo que el propósito y la visión valen más que cualquier título; por eso, mi enfoque está en crear soluciones tecnológicas que faciliten la vida de los ecuatorianos. Mi sueño es convertirme en el mejor empresario de mi país y demostrar que la innovación bien hecha también puede tener acento ecuatoriano 🇪🇨🚀.</p>
-                        <div class="social-links">
-                            <a href="https://www.facebook.com/share/1AMtH9Q61n/?mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook"></i></a>
-                            <a href="https://www.instagram.com/joelfernandezzx?igsh=dTNuYmo0ZXdrZGw5&utm_source=qr" target="_blank"><i class="fab fa-instagram"></i></a>
-                            <a href="https://www.youtube.com/watch?v=jtAKxKOLcGw" target="_blank"><i class="fab fa-youtube"></i></a>
-                            <a href="https://www.linkedin.com/in/joel-fernandez-50a2a2320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="fab fa-linkedin "></i></a>
-                        </div>
-                        <a href="https://wa.me/593981045802?text=Hola%20estoy%20interesado%20en%20más%20información
-" target="_blank" class="btn">CONTACT WITH ME</a>
-                        <a href="https://drive.google.com/file/d/1OWQTyX1IuMuZ-dax415e8aZktOrM4CiP/view" target="_blank" class="btn">DOWNLOAD CV</a>
-                        <a href="contacto.vcf" download class="btn">ADD ME TO CONTACTS</a>
-                </div>
-                <div class="Hero-images">
-                    <img src="iconooo.png" alt="Foto de Perfil">
-                </div>
-            </div>
-        </section>
+<button onclick="sendMessage('Hola Joel, tengo una idea y quiero desarrollarla contigo.')">
+💡 Tengo una idea
+</button>
 
-        <section id="Charla" class="Hero">
-                <div class="Hero-content-charla">
-                    <div class="Hero-text">
-                        <h3>Think Big</h3>
-                        <p>
-                            A los 17 años tuve la oportunidad de ser ponente en TEDx, convirtiéndome en el ecuatoriano más joven en dar una charla en este escenario, donde compartí una reflexión sobre mentalidad, propósito y visión a largo plazo. Mi mensaje fue claro: la edad no define el impacto, lo define la dirección. Esta experiencia reforzó mi convicción de que la tecnología, cuando nace con propósito, puede convertirse en el motor de cambio para nuevas generaciones.
-                        </p>
-                    </div>
+<button onclick="sendMessage('Hola Joel, quiero conocer más sobre tus proyectos.')">
+📁 Deseo saber más sobre tus proyectos
+</button>
 
-                <div class="Hero-video">
-                    <iframe src="https://www.youtube.com/embed/jtAKxKOLcGw"
-                        title="YouTube video player"
-                        allowfullscreen>
-                    </iframe>
-                </div>
+</div>
+</div>
 
-            </div>
-        </section>
-<elevenlabs-convai agent-id="agent_4001kj6fen9meh3bws7s1jqcq596"></elevenlabs-convai><script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
+<!-- NAVBAR -->
+<header>
+<nav id="navbar">
+<div class="logo">Joel<span>Fernandez</span></div>
+
+<ul class="nav-links">
+<li><a href="#home">Home</a></li>
+<li><a href="#expe">Talks</a></li>
+<li><a href="#proyec">Projects</a></li>
+</ul>
+
+</nav>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section id="home" class="Hero">
+
+<div class="Hero-content">
+
+<div class="Hero-text" data-aos="fade-right">
+
+<h1>Joel Fernandez</h1>
+
+<h2>De niño me dijeron “haz lo que sea”; hoy lo hago, pero para cambiar el mundo.</h2>
+
+<p>
+Cuando era niño, me enamoré perdidamente de cómo la tecnología puede transformar vidas. 
+Con el tiempo, entendí que no es solo código y pantallas bonitas, sino una herramienta 
+para cambiar realidades. Creo que el propósito y la visión valen más que cualquier título; 
+por eso, mi enfoque está en crear soluciones tecnológicas que faciliten la vida de los ecuatorianos. 
+Mi sueño es convertirme en el mejor empresario de mi país y demostrar que la innovación bien hecha 
+también puede tener acento ecuatoriano 🇪🇨🚀.
+</p>
+
+<div class="social-links">
+
+<a href="https://www.facebook.com/share/1AMtH9Q61n/?mibextid=wwXIfr" target="_blank">
+<i class="fab fa-facebook"></i>
+</a>
+
+<a href="https://www.instagram.com/joelfernandezzx" target="_blank">
+<i class="fab fa-instagram"></i>
+</a>
+
+<a href="https://www.youtube.com/watch?v=jtAKxKOLcGw" target="_blank">
+<i class="fab fa-youtube"></i>
+</a>
+
+<a href="https://www.linkedin.com/in/joel-fernandez-50a2a2320" target="_blank">
+<i class="fab fa-linkedin"></i>
+</a>
+
+</div>
+
+<a href="https://wa.me/message/MRXMXN7M6BSFG1" target="_blank" class="btn">
+CONTACT WITH ME
+</a>
+
+<a href="https://drive.google.com/file/d/1OWQTyX1IuMuZ-dax415e8aZktOrM4CiP/view" target="_blank" class="btn">
+DOWNLOAD CV
+</a>
+
+<a href="contacto.vcf" download class="btn">
+ADD ME TO CONTACTS
+</a>
+
+</div>
+
+<div class="Hero-images" data-aos="fade-left">
+<img src="iconooo.png" alt="Foto de Perfil">
+</div>
+
+</div>
+
+</section>
+
+<!-- TEDX -->
+
+<section id="expe" class="Hero">
+
+<div class="Hero-content-charla">
+
+<div class="Hero-text" data-aos="fade-up">
+
+<h3>Think Big</h3>
+
+<p>
+A los 17 años tuve la oportunidad de ser ponente en TEDx, convirtiéndome en el ecuatoriano 
+más joven en dar una charla en este escenario, donde compartí una reflexión sobre mentalidad, 
+propósito y visión a largo plazo.
+</p>
+
+</div>
+
+<div class="Hero-video" data-aos="zoom-in">
+
+<iframe src="https://www.youtube.com/embed/jtAKxKOLcGw"
+title="YouTube video player"
+allowfullscreen>
+</iframe>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CASERITA -->
+
+<section id="proyec" class="Hero">
+
+<div class="Hero-content-caserita">
+
+<div class="Hero-text-caserita" data-aos="fade-up">
+
+<h3>Caserita<span class="azul-caserita">.</span></h3>
+
+<p>Transformando el comercio informal en Latinoamérica.</p>
+
+<img class="logo_caserita" src="logoooooo.png">
+
+</div>
+
+<div class="Hero-information-caserita" data-aos="fade-right">
+
+<h3>EL PROBLEMA</h3>
+
+<h4>Comercio sin <span class="azul-caserita">visibilidad</span>.</h4>
+
+<p>
+Millones de pequeñas tiendas y negocios informales en Latinoamérica venden todos los días
+sin llevar un registro adecuado de sus ventas.
+</p>
+
+<h3>LA SOLUCION</h3>
+
+<h4>Herramientas simples para negocios <span class="azul-caserita">reales</span>.</h4>
+
+<p>
+Caserita ayuda a pequeños comerciantes a registrar ventas, controlar inventario 
+y entender su negocio fácilmente.
+</p>
+
+</div>
+
+<div class="Hero-video-caserita" data-aos="zoom-in">
+
+<div class="texto-caserita">
+
+<h3><span class="azul-caserita">¿</span> Listo para verlo en acción<span class="azul-caserita">?</span></h3>
+
+<p>Descubre cómo Caserita empodera a pequeños negocios.</p>
+
+<a class="btn_caserita"
+target="_blank"
+href="https://caserita.lovable.app/dashboard">
+
+Ver MVP ⮕
+
+</a>
+
+</div>
+
+<iframe class="video"
+width="315"
+height="560"
+src="https://youtube.com/embed/neXiuphtt2Q"
+allowfullscreen>
+</iframe>
+
+</div>
+
+</div>
+
+</section>
+
+</main>
+
 <footer class="main-footer">
-    <div class="footer-content">
-        <div class="footer-logo">
-            <div class="logo">JOEL <span>FERNANDEZ</span></div>
-            <p>Construyendo el futuro tecnológico del Ecuador 🇪🇨</p>
-        </div>
 
+<div class="footer-content">
 
+<div class="footer-logo">
+<div class="logo">JOEL <span>FERNANDEZ</span></div>
+<p>Construyendo el futuro tecnológico del Ecuador 🇪🇨</p>
+</div>
 
-        <div class="footer-social">
-            <h4>Hablemos</h4>
-            <div class="social-icons">
-                <a href="https://wa.me/message/MRXMXN7M6BSFG1" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                <a href="https://www.facebook.com/share/1AMtH9Q61n/?mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook"></i></a>
-            </div>
-        </div>
-    </div>
-    
-    <div class="footer-bottom">
-        <p>&copy; 2025 Joel Fernandez. Todos los derechos reservados. ⚡🚀</p>
-    </div>
+<div class="footer-social">
+
+<h4>Hablemos</h4>
+
+<div class="social-icons">
+
+<a href="https://wa.me/message/MRXMXN7M6BSFG1" target="_blank">
+<i class="fab fa-whatsapp"></i>
+</a>
+
+<a href="https://www.facebook.com/share/1AMtH9Q61n/?mibextid=wwXIfr" target="_blank">
+<i class="fab fa-facebook"></i>
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+<p>&copy; 2025 Joel Fernandez ⚡🚀</p>
+</div>
+
 </footer>
 
-    </main>
+<!-- AOS SCRIPT -->
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-
-
+<script>
+AOS.init({
+duration:1000,
+once:true
+});
+</script>
 
 </body>
-
 </html>
-
-
-
-
-
-
-
-
-
-
-
