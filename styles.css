@@ -472,10 +472,114 @@ iframe{
     box-shadow: 0 15px 40px rgba(0,0,0,0.5);
 }
 
+/*Seccion Startup Caserita*/
+.logo_caserita{
+    margin: auto;
+    border-radius: 50px;
+    margin-bottom: 10rem;
+    transition: 1s;
+}
+
+.logo_caserita:hover{
+    transform: scale(1.08);
+}
+
+.azul-caserita{
+    color: blue;
+}
+
+.Hero-text-caserita h3{
+
+    margin-top: 5rem;
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    margin-bottom: 0.5rem;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.1;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.Hero-text-caserita p{
+
+    text-align: center;
+    line-height: 1.6;
+    letter-spacing: 0.9px;
+    font-size: 18px;
+    margin-bottom: 5rem;
+    
+}
+
+.Hero-information-caserita h3{
+    color: blue;
+    margin-bottom: 10px;
+    margin-left: 250px;
+    font-size: 15px;
+    letter-spacing: 3px;
+
+}
+
+.Hero-information-caserita h4{
+    font-size: 40px;
+    margin-left: 250px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    width: 800px;
+}
+
+.Hero-information-caserita p{
+    margin-left: 250px;
+    width: 800px;
+    font-size: 20px;
+    margin-bottom: 150px;
+    margin-top: 25px;
+
+}
+
+.Hero-video-caserita{
+    display:flex;
+    align-items:center;
+    gap:150px;
+}
+
+.Hero-video-caserita iframe{
+    border-radius: 50px;
+}
+.texto-caserita{
+max-width:500px;
+margin-left: 150px;
+}
+
+.texto-caserita h3{
+    display: inline-block;
+    font-size: 60px;
+    margin-bottom: 3rem;
+}
+
+.texto-caserita p{
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+.btn_caserita{
+    display: inline-block;
+    color: white;
+    background-color: blue;
+    font-weight: 700;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    box-shadow: 0 5px 10px rgb(20, 20, 114);
+    transition: 0.5s;
+}
+
+.btn_caserita:hover{
+    transform:scale(1.08);
+}
+
 
 
 /* Responsive para el Footer */
-
 
 
 @media (max-width: 768px) {
@@ -568,4 +672,51 @@ iframe{
         width: 100%;
         height: 220px;
     }
+}
+
+@media (max-width: 768px){
+
+.Hero-information-caserita{
+    text-align: center;
+    padding: 0 20px;
+}
+
+.Hero-information-caserita h3{
+    margin-left: 0;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.Hero-information-caserita h4{
+    margin-left: 0;
+    font-size: 32px;
+}
+
+.Hero-information-caserita p{
+    margin-left: 0;
+    width: auto;
+    max-width: 90%;
+    margin: 0 auto 80px auto;
+    font-size: 18px;
+}
+
+.Hero-video-caserita{
+    flex-direction: column;
+    gap: 40px;
+}
+
+.texto-caserita{
+    margin-left: 0;
+    text-align: center;
+}
+
+.texto-caserita h3{
+    font-size: 36px;
+}
+
+.Hero-video-caserita iframe{
+    width: 90%;
+    height: 500px;
+}
+
 }
