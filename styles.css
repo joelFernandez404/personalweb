@@ -606,117 +606,223 @@ margin-left: 150px;
 /* =========================================
    MEDIA QUERIES (OPTIMIZADO)
    ========================================= */
-@media (max-width: 992px) {
-    .Hero-content {
-        flex-direction: column-reverse;
-        text-align: center;
-        gap: 2rem;
-    }
+/* ============================= */
+/* TABLET */
+/* ============================= */
 
-    .Hero-text p {
-        margin: 0 auto 2rem;
-        text-align: center;
-    }
+@media (max-width: 992px){
 
-    .social-links {
-        justify-content: center;
-    }
-
-    .Hero-images img {
-        width: 280px;
-        height: 280px;
-    }
+#navbar{
+    padding:15px 40px;
 }
 
-@media (max-width: 600px) {
-    #navbar {
-        padding: 10px 20px;
-    }
-    
-    .nav-links {
-        gap: 15px;
-    }
-
-    .nav-links a {
-        font-size: 0.85rem;
-    }
-
-    .Hero-text h1 {
-        font-size: 2.2rem;
-    }
+.nav-links{
+    gap:20px;
 }
 
-/* responsive for the Think Big */
-@media (max-width: 768px){
-
-    .Hero-content-charla{
-        flex-direction: column;
-        gap: 40px;
-        padding: 30px 20px;
-    }
-
-    .Hero-text{
-        text-align: center;
-    }
-
-    .Hero-text p{
-        max-width: 100%;
-    }
-
-    .Hero-video{
-        padding-left: 0;
-        max-width: 100%;
-    }
-
-    .Hero-video iframe{
-        width: 100%;
-        height: 220px;
-    }
+.Hero-content{
+    flex-direction:column-reverse;
+    align-items:center;
+    text-align:center;
+    gap:2rem;
 }
 
-@media (max-width: 768px){
+.Hero-text{
+    max-width:700px;
+    margin:auto;
+}
+
+.Hero-text p{
+    margin:0 auto 2rem;
+}
+
+.social-links{
+    justify-content:center;
+}
+
+.Hero-images img{
+    width:260px;
+    height:260px;
+}
+
+/* Caserita section */
 
 .Hero-information-caserita{
-    text-align: center;
-    padding: 0 20px;
+    text-align:center;
+    padding:0 40px;
 }
+
+.Hero-information-caserita h3,
+.Hero-information-caserita h4{
+    margin-left:0;
+}
+
+.Hero-information-caserita p{
+    margin:0 auto 100px auto;
+    max-width:650px;
+}
+
+.Hero-video-caserita{
+    flex-direction:column;
+    align-items:center;
+    gap:60px;
+}
+
+.texto-caserita{
+    margin-left:0;
+    text-align:center;
+    max-width:600px;
+}
+
+.texto-caserita h3{
+    font-size:42px;
+}
+
+.Hero-video-caserita iframe{
+    width:90%;
+    max-width:400px;
+    height:500px;
+}
+
+}
+
+
+/* ============================= */
+/* MOBILE */
+/* ============================= */
+
+@media (max-width:600px){
+
+#navbar{
+    padding:10px 20px;
+}
+
+.nav-links{
+    gap:15px;
+}
+
+.nav-links a{
+    font-size:0.9rem;
+}
+
+.Hero-text h1{
+    font-size:2.2rem;
+}
+
+.Hero-text{
+    padding:0 15px;
+}
+
+/* Think Big section */
+
+.Hero-content-charla{
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    gap:30px;
+    padding:20px 15px;
+}
+
+.Hero-video{
+    max-width:100%;
+}
+
+.Hero-video iframe{
+    width:100%;
+    height:220px;
+}
+
+/* Caserita section */
+/* ========================= */
+/* CASERITA RESPONSIVE */
+/* ========================= */
+
+/* =====================================
+RESPONSIVE CASERITA
+===================================== */
+
+@media (max-width: 992px){
 
 .Hero-information-caserita h3{
     margin-left: 0;
-    font-size: 14px;
-    letter-spacing: 2px;
+    text-align:center;
 }
 
 .Hero-information-caserita h4{
     margin-left: 0;
+    width: 100%;
+    text-align:center;
     font-size: 32px;
 }
 
 .Hero-information-caserita p{
     margin-left: 0;
-    width: auto;
-    max-width: 90%;
-    margin: 0 auto 80px auto;
+    width: 100%;
+    text-align:center;
     font-size: 18px;
 }
 
 .Hero-video-caserita{
     flex-direction: column;
-    gap: 40px;
+    gap:60px;
 }
 
 .texto-caserita{
-    margin-left: 0;
-    text-align: center;
+    margin-left:0;
+    text-align:center;
 }
 
 .texto-caserita h3{
-    font-size: 36px;
+    font-size:45px;
+}
+
+}
+
+
+
+/* CELULAR */
+
+@media (max-width: 600px){
+
+.logo_caserita{
+    width:120px;
+    margin-bottom:4rem;
+}
+
+.Hero-text-caserita h3{
+    font-size:2.2rem;
+}
+
+.Hero-text-caserita p{
+    font-size:16px;
+}
+
+.Hero-information-caserita h4{
+    font-size:26px;
+}
+
+.Hero-information-caserita p{
+    font-size:16px;
+    margin-bottom:80px;
 }
 
 .Hero-video-caserita iframe{
-    width: 90%;
-    height: 500px;
+    width:100%;
+    height:420px;
+}
+
+.texto-caserita h3{
+    font-size:32px;
+}
+
+.texto-caserita p{
+    font-size:16px;
+}
+
+.btn_caserita{
+    padding:0.9rem 1.8rem;
+}
+
 }
 
 }
