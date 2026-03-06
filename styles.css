@@ -10,12 +10,12 @@
 html{
     scroll-behavior: smooth;
     scrollbar-width: thin;
-    scrollbar-color: #e63946 #181818;
+    scrollbar-color: #0969DA  #181818;
 }
 
 
 body{
-    font-family: 'Inter', 'Segoe UI', Roboto, sans-serif; /* Fuente más moderna */
+    font-family: sans-serif; /* Fuente más moderna */
     background-color: #0a0a0a; /* Negro más profundo */
     color: #e0e0e0;
     line-height: 1.6;
@@ -158,7 +158,7 @@ header{
 }
 
 .logo span{
-    color: #e63946;
+    color: #0969DA;
 }
 
 .nav-links{
@@ -185,7 +185,7 @@ header{
     left: 0;
     width: 0;
     height: 2px;
-    background-color: #e63946;
+    background-color: #0969DA ;
     transition: 0.3s;
 }
 
@@ -227,7 +227,7 @@ header{
 
 .Hero-text h2{
     font-size: 1.2rem;
-    color: #e63946;
+    color: #0969DA ;
     margin-bottom: 1.5rem;
     letter-spacing: 2px;
     font-weight: 600;
@@ -261,8 +261,8 @@ header{
 
 
 .social-links a:hover{
-    background-color: #e63946;
-    border-color: #e63946;
+    background-color: #0969DA;
+    border-color: #0969DA ;
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(230, 57, 70, 0.3);
     justify-content: center;
@@ -295,7 +295,7 @@ header{
 /* BOTÓN */
 .btn{
     display: inline-block;
-    background-color: #e63946;
+    background-color: #0969DA ;
     margin-right: 35px;
     margin-bottom: 35px;
     color: white;
@@ -303,14 +303,15 @@ header{
     padding: 1rem 2rem;
     border-radius: 50px; /* Estilo píldora */
     transition: 0.3s;
-    box-shadow: 0 5px 15px rgba(230, 57, 70, 0.4);
-    box-shadow: 0 5px 15px rgba(230, 57, 70, 0.4);
+    box-shadow: 0 5px 15px #5589c4 ;
+    box-shadow: 0 5px 15px #5589c4 ;
 }
 
 .btn:hover{
-    background-color: #ff4d5a;
+    background-color: white;
+    color: black;
     transform: translateY(-3px);
-    box-shadow: 0 8px 25px rgba(230, 57, 70, 0.6);
+    box-shadow: 0 8px 25px #0969DA ;
 }
 
 /* =========================================
@@ -485,7 +486,7 @@ iframe{
 }
 
 .azul-caserita{
-    color: blue;
+    color: #0969DA;
 }
 
 .Hero-text-caserita h3{
@@ -512,7 +513,7 @@ iframe{
 }
 
 .Hero-information-caserita h3{
-    color: blue;
+    color: #0969DA;
     margin-bottom: 10px;
     margin-left: 250px;
     font-size: 15px;
@@ -563,9 +564,10 @@ margin-left: 150px;
 }
 
 .btn_caserita{
+    margin-left: 50px;
     display: inline-block;
     color: white;
-    background-color: blue;
+    background-color: #0969DA ;
     font-weight: 700;
     padding: 1rem 2rem;
     border-radius: 50px;
@@ -575,6 +577,8 @@ margin-left: 150px;
 
 .btn_caserita:hover{
     transform:scale(1.08);
+    color: black;
+    background-color: white;
 }
 
 
@@ -821,8 +825,14 @@ RESPONSIVE CASERITA
 
 .btn_caserita{
     padding:0.9rem 1.8rem;
+    margin: auto 0;
 }
 
 }
 
 }
+
+
+
+
+/**/
