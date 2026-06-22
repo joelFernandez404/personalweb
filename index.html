@@ -1,309 +1,409 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="--Author" content="Joel Fernandez">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Joel Fernandez">
 
-<meta name="OG:title" content="Joel Fernandez">
-<meta name="OG:description" content="Web of Joel Fernandez">
+    <meta name="title" content="Joel Fernandez — Founder & Builder">
+    <meta name="description"
+        content="Web personal de Joel Fernandez, fundador de Caserita y miembro de Next Fellowship. Inteligencia artificial y desarrollo tecnológico en Latinoamérica.">
+    <meta name="keywords"
+        content="Joel Fernandez, Caserita, Next Fellowship, Emprendedor, Fundador, Ecuador, Inteligencia Artificial, Startup">
 
-<link rel="stylesheet" href="styles.css">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://joelfernandez404.github.io/personalweb/">
+    <meta property="og:title" content="Joel Fernandez — Founder & Builder">
+    <meta property="og:description"
+        content="Web personal de Joel Fernandez, fundador de Caserita y miembro de Next Fellowship. Inteligencia artificial y desarrollo de impacto en Latam.">
+    <meta property="og:image" content="icono.png">
 
-<script src="https://kit.fontawesome.com/5c898ff011.js" crossorigin="anonymous"></script>
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://joelfernandez404.github.io/personalweb/">
+    <meta property="twitter:title" content="Joel Fernandez — Founder & Builder">
+    <meta property="twitter:description"
+        content="Web personal de Joel Fernandez, fundador de Caserita y miembro de Next Fellowship.">
+    <meta property="twitter:image" content="icono.png">
 
-<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
-
-<title>Joel Fernandez</title>
-
-<script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async></script>
-
-<script>
-function toggleChat() {
-    const chat = document.getElementById("chatBox");
-    chat.style.display = chat.style.display === "block" ? "none" : "block";
-}
-
-function sendMessage(message) {
-    const phoneNumber = "593981045802";
-    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-    window.open(url, "_blank");
-}
-</script>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Joel Fernandez — Founder & Builder</title>
 </head>
 
 <body>
 
-<!-- WhatsApp Button -->
-<div class="w-btn" onclick="toggleChat()">
-<i class="fa-brands fa-whatsapp"></i>
-</div>
-
-<!-- Chat Box -->
-<div class="chat-box" id="chatBox">
-<div class="chat-header">
-<div>
-<strong>Joel Fernandez</strong><br>
-<small>Contactate Conmigo</small>
-</div>
-<span onclick="toggleChat()">✕</span>
-</div>
-
-<div class="chat-body">
-
-<p>¡Hola! 👋 ¿En qué puedo ayudarte?</p>
-
-<button onclick="sendMessage('Hola Joel, me interesa trabajar contigo en un proyecto.')">
-🚀 Trabajemos Juntos
-</button>
-
-<button onclick="sendMessage('Hola Joel, tengo una idea y quiero desarrollarla contigo.')">
-💡 Tengo una idea
-</button>
-
-<button onclick="sendMessage('Hola Joel, quiero conocer más sobre tus proyectos.')">
-📁 Deseo saber más sobre tus proyectos
-</button>
-
-</div>
-</div>
-
-<!-- NAVBAR -->
-<header>
-<nav id="navbar">
-<div class="logo">Joel<span>Fernandez</span></div>
-
-<ul class="nav-links">
-<li><a href="#home">Home</a></li>
-<li><a href="#expe">Talks</a></li>
-<li><a href="#proyec">Projects</a></li>
-</ul>
-
-</nav>
-</header>
-
-<main>
-
-<!-- HERO -->
-<section id="home" class="Hero">
-
-<div class="Hero-content">
-
-<div class="Hero-text" data-aos="fade-right">
-
-<h1>Joel Fernandez</h1>
-
-
-<h2>Creo que la tecnología es la herramienta más poderosa que tenemos para transformar la vida de millones de personas.</h2>
-
-<p>
-Cuando era niño, me enamoré perdidamente de cómo la tecnología puede transformar vidas. 
-Con el tiempo, entendí que no es solo código y pantallas bonitas, sino una herramienta 
-para cambiar realidades. Creo que el propósito y la visión valen más que cualquier título; 
-por eso, mi enfoque está en crear soluciones tecnológicas que faciliten la vida de los ecuatorianos. 
-Mi sueño es convertirme en el mejor empresario de mi país y demostrar que la innovación bien hecha 
-también puede tener acento ecuatoriano 🇪🇨🚀.
-</p>
-
-<div class="social-links">
-
-<a href="https://www.facebook.com/share/1AMtH9Q61n/?mibextid=wwXIfr" target="_blank">
-<i class="fab fa-facebook"></i>
-</a>
-
-<a href="https://www.instagram.com/joelfernandezzx" target="_blank">
-<i class="fab fa-instagram"></i>
-</a>
-
-<a href="https://www.youtube.com/watch?v=jtAKxKOLcGw" target="_blank">
-<i class="fab fa-youtube"></i>
-</a>
-
-<a href="https://www.linkedin.com/in/joel-fernandez-50a2a2320" target="_blank">
-<i class="fab fa-linkedin"></i>
-</a>
-
-</div>
-
-<a href="https://wa.me/message/MRXMXN7M6BSFG1" target="_blank" class="btn">
-CONTACT WITH ME
-</a>
-
-<a href="https://drive.google.com/file/d/1OWQTyX1IuMuZ-dax415e8aZktOrM4CiP/view" target="_blank" class="btn">
-DOWNLOAD CV
-</a>
-
-
-
-</div>
-
-<div class="Hero-images" data-aos="fade-left">
-<img src="icono.png" alt="Foto de Perfil">
-</div>
-
-</div>
-
-</section>
-
-<!-- TEDX -->
-
-<section id="expe" class="Hero">
-
-<div class="Hero-content-charla">
-
-<div class="Hero-text" data-aos="fade-up">
-
-<h3>Think <span class="azul-caserita">Big</span></h3>
-
-<p>
-A los 17 años tuve la oportunidad de ser ponente en TEDx, convirtiéndome en el ecuatoriano 
-más joven en dar una charla en este escenario, donde compartí una reflexión sobre mentalidad, 
-propósito y visión a largo plazo.
-</p>
-
-</div>
-
-<div class="Hero-video" data-aos="zoom-in">
-
-<iframe src="https://www.youtube.com/embed/jtAKxKOLcGw"
-title="YouTube video player"
-allowfullscreen>
-</iframe>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- CASERITA -->
-
-<section id="proyec" class="Hero">
-
-<div class="Hero-content-caserita">
-
-<div class="Hero-text-caserita" data-aos="fade-up">
-<div class="content-build">
-<h3 class="builder">What I'm <span class="azul-caserita" id="build">Building</span></h3>
-</div>
-<br>
-<br>
-<br>
-<br>
-<h3>Caserita<span class="azul-caserita">.</span></h3>
-
-<p>Transformando el comercio informal en Latinoamérica.</p>
-
-<img class="logo_caserita" src="logoooooo.png">
-
-</div>
-
-<div class="Hero-information-caserita" data-aos="fade-right">
-
-<h3>EL PROBLEMA</h3>
-
-<h4>Comercio sin <span class="azul-caserita">visibilidad</span>.</h4>
-
-<p>
-Millones de pequeñas tiendas y negocios informales en Latinoamérica venden todos los días
-sin llevar un registro adecuado de sus ventas.
-</p>
-
-<h3>LA SOLUCION</h3>
-
-<h4>Herramientas simples para negocios <span class="azul-caserita">reales</span>.</h4>
-
-<p>
-Caserita ayuda a pequeños comerciantes a registrar ventas, controlar inventario 
-y entender su negocio fácilmente.
-</p>
-
-</div>
-
-<div class="Hero-video-caserita" data-aos="zoom-in">
-
-<div class="texto-caserita">
-
-<h3><span class="azul-caserita">¿</span>Listo para verlo en acción<span class="azul-caserita">?</span></h3>
-
-<p>Descubre cómo Caserita empodera a pequeños negocios.</p>
-
-<a class="btn_caserita"
-target="_blank"
-href="https://caserita.lovable.app/dashboard">
-
-Ver MVP 
-
-</a>
-
-<a class="btn_caserita" target="_blank" href="https://caserita-landing-latam.lovable.app/">Web Site Caserita</a>
-
-</div>
-
-<iframe class="video"
-width="315"
-height="560"
-src="https://youtube.com/embed/neXiuphtt2Q"
-allowfullscreen>
-</iframe>
-
-</div>
-
-</div>
-
-</section>
-
-</main>
-
-<elevenlabs-convai agent-id="agent_4001kj6fen9meh3bws7s1jqcq596"></elevenlabs-convai><script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
-
-<footer class="main-footer">
-
-<div class="footer-content">
-
-<div class="footer-logo">
-<div class="logo">JOEL <span>FERNANDEZ</span></div>
-<p>Construyendo el futuro tecnológico del Ecuador 🇪🇨</p>
-</div>
-
-<div class="footer-social">
-
-<h4>Hablemos</h4>
-
-<div class="social-icons">
-
-<a href="https://wa.me/message/MRXMXN7M6BSFG1" target="_blank">
-<i class="fab fa-whatsapp"></i>
-</a>
-
-<a href="https://www.facebook.com/share/1AMtH9Q61n/?mibextid=wwXIfr" target="_blank">
-<i class="fab fa-facebook"></i>
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="footer-bottom">
-<p>&copy; 2025 Joel Fernandez ⚡🚀</p>
-</div>
-
-</footer>
-
-
-<!-- AOS SCRIPT -->
-
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-<script>
-AOS.init({
-duration:1000,
-once:true
-});
-</script>
-
+    <!-- NAVBAR -->
+    <header id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo" id="logo-link">joel<span>.</span></a>
+            <nav class="nav-links">
+                <a href="#hero">Inicio</a>
+                <a href="#about">Sobre mí</a>
+                <a href="#proyectos">Caserita</a>
+                <a href="#trayectoria">Trayectoria</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Cambiar tema">
+                    <!-- Sun Icon (shows in dark mode) -->
+                    <svg class="sun-icon" viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <!-- Moon Icon (shows in light mode) -->
+                    <svg class="moon-icon" viewBox="0 0 24 24">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+                <a href="https://wa.me/593981045802?text=Hola%20Joel
+" class="btn-header">Hablemos</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section id="hero" class="hero">
+            <div class="hero-left">
+                <div class="hero-tags">
+                    <span>IA</span>
+                    <span class="asterisk">*</span>
+                    <span>Desarrollo</span>
+                    <span class="asterisk">*</span>
+                    <span>Emprendimiento</span>
+                </div>
+                <h1 class="hero-title">
+                    Hola, soy Joel. <br>
+                    Emprendedor <br><span>Tech</span>
+                </h1>
+                <div class="hero-ctas">
+                    <a href="#proyectos" class="btn-black" id="cta-projects">Ver proyectos</a>
+                    <a href="https://www.linkedin.com/in/joel-fernandez-50a2a2320" target="_blank" class="btn-outline"
+                        id="cta-connect">Conectar</a>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="hero-avatar-wrapper">
+                    <img src="icono.png" alt="Joel Fernandez" class="hero-avatar">
+                    <div class="hero-avatar-bg"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TICKER MARQUEE -->
+        <div class="marquee-wrapper">
+            <div class="marquee">
+                <div class="marquee-content">
+                    <div class="marquee-item">Inteligencia Artificial <span class="asterisk">*</span></div>
+                    <div class="marquee-item">Startups <span class="asterisk">*</span></div>
+                    <div class="marquee-item">Desarrollo de Producto <span class="asterisk">*</span></div>
+                    <div class="marquee-item">Impacto Social <span class="asterisk">*</span></div>
+                    <div class="marquee-item">Ecuador <span class="asterisk">*</span></div>
+                    <div class="marquee-item">Latinoamérica <span class="asterisk">*</span></div>
+                    <!-- Repeat items for seamless animation loop -->
+                    <div class="marquee-item">Inteligencia Artificial <span class="asterisk">*</span></div>
+                    <div class="marquee-item">Startups <span class="asterisk">*</span></div>
+                    <div class="marquee-item">Desarrollo de Producto <span class="asterisk">*</span></div>
+                    <div class="marquee-item">Impacto Social <span class="asterisk">*</span></div>
+                    <div class="marquee-item">Ecuador <span class="asterisk">*</span></div>
+                    <div class="marquee-item">Latinoamérica <span class="asterisk">*</span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ABOUT -->
+        <section id="about" class="about reveal">
+            <div class="about-left">
+                <span class="detail-label">Joel <span class="asterisk">*</span> Fernandez</span>
+                <h2 class="about-subtitle">Creador de soluciones de inteligencia artificial.</h2>
+            </div>
+            <div class="about-right">
+                <p class="about-text">
+
+                    Tengo 18 años y soy un emprendedor ecuatoriano apasionado por la <strong>tecnología y el impacto
+                        social</strong>. Soy
+                    fundador de <strong>Caserita</strong>, una startup de inteligencia artificial creada para
+                    digitalizar y
+                    empoderar
+                    a
+                    comerciantes informales en Ecuador, Colombia y Perú. Además, soy miembro de Next Fellowship, el
+                    programa impulsado por el cofundador de Rappi.
+
+                    Desde niño me fascinó la capacidad de la tecnología y la innovación para transformar realidades
+                    y
+                    abrir oportunidades donde antes parecían no existir. <strong>Hoy trabajo con la convicción de
+                        construir
+                        soluciones simples, accesibles y de alto impacto que faciliten la vida de millones de personas
+                        en
+                        Ecuador y Latinoamérica.</strong>
+
+                </p>
+                <div class="about-details">
+                    <div class="detail-item">
+                        <span class="detail-label">País de origen</span>
+                        <span class="detail-value">Ecuador 🇪🇨</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Edad actual</span>
+                        <span class="detail-value">18 Años</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Fellowship</span>
+                        <span class="detail-value">Next Fellowship</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- STATS -->
+        <section class="stats reveal">
+            <div class="stat-cell">
+                <span class="stat-number">🇪🇨</span>
+                <span class="stat-label">País Origen</span>
+            </div>
+            <div class="stat-cell">
+                <span class="stat-number">+10</span>
+                <span class="stat-label">Proyectos de Impacto</span>
+            </div>
+            <div class="stat-cell">
+                <span class="stat-number">18</span>
+                <span class="stat-label">Edad</span>
+            </div>
+        </section>
+
+        <!-- TRAYECTORIA (LIST FORMAT) -->
+        <section id="trayectoria" class="trajectory reveal">
+            <div class="section-header">
+                <span class="section-subtitle-moxa">Hitos & Logros</span>
+                <h2 class="section-title-moxa">Trayectoria <span class="asterisk">*</span></h2>
+            </div>
+
+            <div class="trajectory-list">
+                <!-- TEDx -->
+                <div class="trajectory-row">
+                    <div class="trajectory-index">01</div>
+                    <div class="trajectory-info">
+                        <h3 class="trajectory-title">Speaker TEDx</h3>
+                        <p class="trajectory-desc">El ponente más joven de Ecuador en dar una charla en este escenario a
+                            los 17 años, compartiendo visión tecnológica.</p>
+                    </div>
+                    <span class="trajectory-tag">Oratoria / Liderazgo</span>
+                    <span class="trajectory-year">2024</span>
+                </div>
+
+                <!-- Caserita -->
+                <div class="trajectory-row">
+                    <div class="trajectory-index">02</div>
+                    <div class="trajectory-info">
+                        <h3 class="trajectory-title">Fundador de Caserita</h3>
+                        <p class="trajectory-desc">Desarrollo e implementación de un modelo de IA para automatizar las
+                            finanzas de miles de comerciantes informales.</p>
+                    </div>
+                    <span class="trajectory-tag">Startups / IA</span>
+                    <span class="trajectory-year">2026</span>
+                </div>
+
+                <!-- Next Fellowship -->
+                <div class="trajectory-row">
+                    <div class="trajectory-index">03</div>
+                    <div class="trajectory-info">
+                        <h3 class="trajectory-title">Next Fellowship</h3>
+                        <p class="trajectory-desc">Seleccionado para formar parte de la prestigiosa comunidad e
+                            incubadora de talento tecnológico en Latam.</p>
+                    </div>
+                    <span class="trajectory-tag">Comunidad / Talento</span>
+                    <span class="trajectory-year">2026</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- PORTFOLIO / CASERITA DESTACADO -->
+        <section id="proyectos" class="portfolio reveal">
+            <div class="section-header">
+                <span class="section-subtitle-moxa">Startup Destacada</span>
+                <div class="section-title-logo-container">
+                    <img src="LOGO.png" class="section-title-logo" alt="Caserita Logo">
+                </div>
+            </div>
+
+            <div class="portfolio-card">
+                <div class="portfolio-details">
+                    <div class="portfolio-brand">
+                        <div class="logo-wrapper">
+                            <img src="logotipo.png" alt="Caserita" class="portfolio-logo">
+                        </div>
+                        <span class="portfolio-badge">soluciones para Comercio</span>
+                    </div>
+                    <h3 class="portfolio-title">Digitalizando a comerciantes reales.</h3>
+                    <p class="portfolio-desc">
+                        Caserita es una plataforma inteligente que ayuda a comerciantes informales y tiendas locales en
+                        Ecuador, Colombia y Perú a llevar registros financieros simples, controlar inventario y
+                        potenciar sus ventas diarias mediante IA intuitiva.
+                    </p>
+                    <div class="portfolio-ctas">
+                        <a href="https://caserita.lat/" target="_blank" class="btn-black">Ver MVP</a>
+                        <a href="https://app.caserita.lat/splash" target="_blank" class="btn-outline">Sitio
+                            Web</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contacto" class="contact reveal">
+            <div class="section-header">
+                <span class="section-subtitle-moxa">Hablemos</span>
+                <h2 class="section-title-moxa">Contacto <span class="asterisk">*</span></h2>
+            </div>
+            <div class="contact-container">
+                <p class="contact-text">¿Tienes una idea en mente, quieres colaborar o conversar sobre inteligencia
+                    artificial? Escríbeme directamente.</p>
+                <div class="contact-links">
+                    <!-- Email -->
+                    <a href="mailto:jeola023@icloud.com" class="contact-link" id="email-link">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                            </path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        jeola023@icloud.com
+                    </a>
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/in/joel-fernandez-50a2a2320" target="_blank" class="contact-link"
+                        id="linkedin-link">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                            </path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                        LinkedIn
+                    </a>
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/joelfernandez.ia" target="_blank" class="contact-link"
+                        id="instagram-link">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                        Instagram
+                    </a>
+                    <!-- CV Link -->
+                    <a href="cv.pdf" target="_blank" class="contact-link" id="cv-link">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                            <line x1="16" y1="13" x2="8" y2="13"></line>
+                            <line x1="16" y1="17" x2="8" y2="17"></line>
+                        </svg>
+                        Descargar CV
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <span>&copy; 2026 Joel Fernandez</span>
+        <span>Ecuador 🇪🇨</span>
+    </footer>
+
+    <!-- WHATSAPP FLOATING WIDGET -->
+    <div class="w-btn" id="whatsapp-toggle" onclick="toggleChat()" aria-label="Abrir chat de WhatsApp">
+        <svg viewBox="0 0 24 24">
+            <path
+                d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.517 2.266 2.27 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.455L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.97C16.528 2.017 14.077 1 11.512 1c-5.438 0-9.863 4.372-9.868 9.802-.002 1.773.475 3.5 1.378 5.061l-.976 3.564 3.652-.958zm13.04-6.398c-.295-.149-1.748-.862-2.019-.962-.272-.1-.469-.149-.667.149-.198.298-.766.962-.939 1.162-.173.199-.347.225-.642.077-.295-.149-1.247-.459-2.376-1.464-.878-.782-1.47-1.747-1.642-2.046-.173-.298-.018-.46.13-.608.134-.133.295-.348.444-.522.148-.174.198-.298.297-.497.099-.198.05-.372-.025-.521-.075-.149-.667-1.611-.914-2.206-.242-.579-.487-.501-.667-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.038 1.016-1.038 2.479 0 1.462 1.065 2.877 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.748-.713 1.995-1.402.247-.689.247-1.277.173-1.402-.074-.125-.272-.199-.567-.348z" />
+        </svg>
+    </div>
+
+    <!-- CHAT BOX -->
+    <div class="chat-box" id="chatBox">
+        <div class="chat-header">
+            <div class="chat-header-text">
+                <strong>Joel Fernandez</strong>
+                <small>Contacto directo</small>
+            </div>
+            <span class="chat-close" onclick="toggleChat()">&times;</span>
+        </div>
+        <div class="chat-body">
+            <p>¡Hola! 👋 ¿En qué te puedo ayudar hoy?</p>
+            <button onclick="sendMessage('Hola Joel, me interesa trabajar contigo en un proyecto.')">
+                🚀 Trabajemos Juntos
+            </button>
+            <button onclick="sendMessage('Hola Joel, tengo una idea y quiero desarrollarla contigo.')">
+                💡 Tengo una idea
+            </button>
+            <button onclick="sendMessage('Hola Joel, me gustaría conocer más sobre tus proyectos.')">
+                📁 Saber más sobre tus proyectos
+            </button>
+        </div>
+    </div>
+
+    <!-- LOGIC & SCRIPTS -->
+    <script>
+        // WhatsApp chat toggle
+        function toggleChat() {
+            const chat = document.getElementById("chatBox");
+            const isVisible = window.getComputedStyle(chat).display === "flex";
+            chat.style.display = isVisible ? "none" : "flex";
+        }
+
+        // Send WhatsApp message
+        function sendMessage(message) {
+            const phoneNumber = "593981045802";
+            const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+            window.open(url, "_blank");
+        }
+
+        // Theme Toggle Logic
+        const themeToggleBtn = document.getElementById('theme-toggle');
+        const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        const currentTheme = localStorage.getItem('theme') || systemTheme;
+
+        document.documentElement.setAttribute('data-theme', currentTheme);
+
+        themeToggleBtn.addEventListener('click', () => {
+            const theme = document.documentElement.getAttribute('data-theme');
+            const newTheme = theme === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        });
+
+        // Scroll Reveal Animation
+        const revealElements = document.querySelectorAll('.reveal');
+        const checkReveal = () => {
+            const triggerBottom = window.innerHeight * 0.9;
+            revealElements.forEach(el => {
+                const rect = el.getBoundingClientRect();
+                if (rect.top < triggerBottom) {
+                    el.classList.add('active');
+                }
+            });
+        };
+
+        window.addEventListener('scroll', checkReveal);
+        window.addEventListener('DOMContentLoaded', checkReveal);
+    </script>
 </body>
+
 </html>
